@@ -20,22 +20,13 @@ A Simple Todolist API in Rust and Actix Web! This API allows you to manage a tod
 ### Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/rust-mongodb-todolist-api.git
-cd rust-mongodb-todolist-api
+git clone https://github.com/FeezyHendrix/rust-actix-mongodb.git
+cd rust-actix-mongodb
 ```
 
 ### Setup MongoDB
 
 Ensure you have MongoDB installed and running. You can find installation instructions [here](https://docs.mongodb.com/manual/installation/).
-
-### Configuration
-
-Create a `.env` file in the project root directory and add your MongoDB connection string:
-
-```env
-MONGODB_URI=mongodb://localhost:27017
-DATABASE_NAME=todolist
-```
 
 ### Build and Run
 
@@ -51,7 +42,7 @@ DATABASE_NAME=todolist
     cargo run
     ```
 
-The API will be available at `http://localhost:8000`.
+The API will be available at `http://localhost:8080`.
 
 ## API Endpoints
 
